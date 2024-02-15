@@ -1,0 +1,23 @@
+.svg-small {
+  height: 50px;
+  width: auto;
+  max-width: 100%;
+}
+
+.svg-medium {
+  height: 100px;
+  width: auto;
+  max-width: 100%;
+}
+
+.svg-large {
+  height: 200px;
+  width: auto;
+  max-width: 100%;
+}
+
+.svg-extra-large {
+  height: 300px;
+  width: auto;
+  max-width: 100%;
+}

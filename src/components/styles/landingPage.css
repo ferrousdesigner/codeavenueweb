@@ -1,0 +1,8 @@
+.humans-img-card {
+  width: "200px";
+  height: 200px;
+  top: -15%;
+  position: relative;
+  margin: 0;
+  object-fit: contain;
+}

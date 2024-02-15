@@ -1,0 +1,14 @@
+.border-bottom {
+  border-bottom: 1px solid #a7a7a7;
+}
+
+.fas.fa-arrows-rotate {
+  color: var(--header-color);
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.rotate-360 {
+  transform: rotate(360deg);
+  transition: transform 2s ease;
+}

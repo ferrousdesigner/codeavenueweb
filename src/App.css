@@ -1,0 +1,322 @@
+/* Alfa Slab One for headers */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap");
+
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--main-background-color);
+}
+button {
+  font-family: "Open Sans", sans-serif;
+}
+
+input,
+textarea {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal !important;
+  font-size: 1rem;
+}
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  color: var(--header-color);
+  font-family: "Open Sans", sans-serif;
+  font-size: 3.5rem;
+}
+
+h2 {
+  color: var(--header-color);
+  font-family: "Open Sans", sans-serif;
+  font-size: "40px";
+}
+h3 {
+  color: var(--header-color);
+}
+h4 {
+  color: var(--header-color);
+  font-weight: 500;
+}
+p {
+  color: var(--main-font-color);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+span {
+  color: var(--main-font-color);
+  font-weight: 500;
+  line-height: normal;
+  font-family: "Open Sans", sans-serif;
+}
+ul {
+  color: var(--main-font-color);
+}
+.paragraph {
+  color: var(--header-color);
+}
+.default {
+  --button-height: 4rem;
+  --btn-gradient-color: #37363b;
+  --btn-gradient: #37363b;
+  --main-font-color: #aaa;
+  --border-color: #2a2c2d;
+  --theme-color: #fff;
+  --radius: 1rem;
+}
+
+.theme-dark {
+  --font-one: "Open Sans", sans-serif;
+  --glass: #000000dd;
+  --skeleton-color: #55555533;
+  --gray: #161616;
+  --prime-card-background: #222222;
+  --prime-card-title: #fff;
+  --prime-card-subtitle: #aaa;
+  --theme-color: #fff;
+  --input-background: #16181b;
+  --nav-color: #22222288;
+  --btn-gradient-color: #222;
+  --btn-gradient: #fff;
+  --jumbo-background: #171a1d;
+  --jumbo-background-blur: #181a1d;
+  --nav-btn: #171717b8;
+  --overlay-color: #111111dd;
+  --logo-color: #f5f5f5;
+  --translucent: #000000fe;
+  --main-font-color: #aaa;
+  --header-color: #f5f5f5;
+  --main-background-color: #0a0d0f;
+  --card-icon-background: #333;
+  --dialog-background: #1d2227aa;
+  --input-color: #555;
+  --glass-color: #00000088;
+  --border-color: #2a2c2d;
+  --input-color: #666;
+  --glass-button-color: #afafaf22;
+  --glass-button-font-color: #222;
+  --glass-button-color-hover: #f9f9f946;
+  --button-disabled-color: #111;
+  --placeholder-color: #444;
+  --button-border-color: #555;
+  --btn-disabled: #444;
+  --card-background: #171a1d;
+  /* --card-color: #333; */
+  --card-color: #000000;
+  --card-color-2: #2b2b2b;
+  --card-shadow-color: #333;
+  --toggle-background: #555555;
+  --toggle-background-nob: #bbbbbb;
+  --button-font-color: #999;
+  --accent-button-font-color: #fff;
+  --accent-button-color: #444444;
+  --shadow-color: #54545470;
+  --font-shadow-color: #000;
+  --profile-font-color: #fff;
+  --error-font-color: #ff0000;
+  --error-background-color: #ff000022;
+  --divider-color: #333;
+  --black: #222;
+  --white: #f8f8f8;
+  --light-black: #555;
+  --ques-ans-shadow-color: rgba(0, 0, 0, 0.4);
+  --gradient-light: #33333344;
+  --error-font-color: #a8000d;
+  --info-font-color: #005bd3;
+  --pink-color: #009688;
+  --success-font-color: #05a081;
+  --semi-back: rgba(0, 0, 0, 0.9);
+  --top-area-color: #222;
+  --neo-shadows: 0.3rem 0.3rem 1rem var(--shadow-color),
+    -0.3rem -0.3rem 1rem var(--card-shadow-color),
+    0rem 0rem 0rem var(--shadow-color) inset,
+    -0rem -0rem 0rem var(--card-shadow-color) inset;
+  --neo-shadows-reverse: 0rem -0rem 0rem var(--shadow-color),
+    0rem -0rem 0rem var(--card-shadow-color),
+    0.3rem 0.3rem 1rem var(--shadow-color) inset,
+    -0.3rem -0.3rem 1rem var(--card-shadow-color) inset;
+  --neo-line: 0.1rem 0.1rem 0.1rem var(--shadow-color),
+    -0.1rem -0.1rem 0.1rem var(--card-shadow-color),
+    0rem 0rem 0rem var(--shadow-color) inset,
+    -0rem -0rem 0rem var(--card-shadow-color) inset;
+  --neo-line-reverse: 0rem -0rem 0rem var(--shadow-color),
+    0rem -0rem 0rem var(--card-shadow-color),
+    0.1rem 0.1rem 0.1rem var(--shadow-color) inset,
+    -0.1rem -0.1rem 0.1rem var(--card-shadow-color) inset;
+  --card-background-green: #172719;
+  --card-background-blue: #204169;
+  --card-background-purple: #c8c9ff;
+  --card-background-orange: #282010;
+  --card-background-red: #330000;
+  --border-color-red: #edb9b9;
+  --card-background-red-dark: #ff000012;
+  --button-color: #fff;
+  --green: rgb(0, 144, 24);
+  --purple: rgb(100, 0, 194);
+  --blue: rgb(0, 105, 224);
+  --red: rgb(182, 9, 9);
+  --orange: rgb(144, 70, 0);
+  --light-green: rgba(0, 175, 29, 0.123);
+  --light-purple: rgba(100, 0, 194, 0.164);
+  --light-blue: rgba(0, 104, 224, 0.219);
+  --light-red: rgba(182, 9, 9, 0.246);
+  --light-orange: rgba(144, 70, 0, 0.226);
+  --sub-title-color: #dedede;
+  --description-color: #aaa;
+  --secondary-link-background: #333;
+  --iphone-frame-back: linear-gradient(145deg, #454545, #2a2a2a);
+  --iphone-frame-shadows: 20px 20px 50px #090909, -20px -20px 50px #3a3a3a;
+  --iphone-notch-color: #414141;
+  --btn-primary-shadow: 0 5px 20px 10px #fe97003b;
+  --filter: grayscale(1) brightness(1) invert(1);
+  --loader-color: #ffffff;
+}
+
+.theme-light {
+  --font-one: "Open Sans", sans-serif;
+  --glass: #ffffffee;
+  --skeleton-color: #aaaaaa55;
+  --gray: #3c3c3c;
+  --prime-card-background: #222222;
+  --prime-card-title: #fff;
+  --prime-card-subtitle: #aaa;
+  --theme-color: #37363b;
+  --input-background: #f5f5f5;
+  --loader-color: #333333;
+  --btn-disabled: #999;
+  --nav-btn: #f7f7f7b8;
+  --nav-color: #ffffffee;
+  --btn-gradient-color: #fff;
+  --btn-gradient: #222;
+  /* --filter: grayscale(1) brightness(0.5); */
+  --jumbo-background: #f7f7f7;
+  --jumbo-background-blur: #f7f7f7ff;
+  --overlay-color: #eeeeee55;
+  --logo-color: #222;
+  --translucent: #fffffffe;
+  --main-font-color: #6d6d6d;
+  --header-color: #37363b;
+  --main-background-color: #fff;
+  --card-icon-background: #66666622;
+  --dialog-background: #f7f7f7aa;
+  --input-color: #66666622;
+  --border-color: #ddd;
+  --glass-color: #ffffff88;
+  --glass-button-color: #11111155;
+  --glass-button-color-hover: #11111188;
+  --glass-button-font-color: #ddd;
+  --button-disabled-color: #888;
+  --placeholder-color: #aaa;
+  --card-color: #ecececc5;
+  /* --card-color: #fff; */
+  --card-color-2: #f5f5f5;
+  --card-shadow-color: #fff;
+  --toggle-background: #e5e5e5;
+  --toggle-background-nob: #bbbbbb;
+  --button-font-color: #888;
+  --accent-button-font-color: #fff;
+  --accent-button-color: #eeeeee;
+  --shadow-color: #00000022;
+  --profile-font-color: #fff;
+  --font-shadow-color: #11111155;
+  --error-font-color: #a8000d;
+  --info-font-color: #005bd3;
+  --success-font-color: #05a081;
+  --error-background-color: #ff000022;
+  --divider-color: #eee;
+  --black: #222;
+  --white: #f8f8f8;
+  --pink-color: #009688;
+  --light-black: #555;
+  --gradient-light: #ffffff44;
+  --semi-back: rgba(255, 255, 255, 0.9);
+  --ques-ans-shadow-color: rgba(0, 0, 0, 0);
+  --top-area-color: var(--theme-color);
+  --neo-shadows: 0.3rem 0.3rem 1rem var(--shadow-color),
+    -0.3rem -0.3rem 1rem var(--card-shadow-color),
+    0rem 0rem 0rem var(--shadow-color) inset,
+    -0rem -0rem 0rem var(--card-shadow-color) inset;
+  --neo-shadows-reverse: 0rem -0rem 0rem var(--shadow-color),
+    0rem -0rem 0rem var(--card-shadow-color),
+    0.3rem 0.3rem 1rem var(--shadow-color) inset,
+    -0.3rem -0.3rem 1rem var(--card-shadow-color) inset;
+  --neo-line: 0.1rem 0.1rem 0.1rem var(--shadow-color),
+    -0.1rem -0.1rem 0.1rem var(--card-shadow-color),
+    0rem 0rem 0rem var(--shadow-color) inset,
+    -0rem -0rem 0rem var(--card-shadow-color) inset;
+  --neo-line-reverse: 0rem -0rem 0rem var(--shadow-color),
+    0rem -0rem 0rem var(--card-shadow-color),
+    0.1rem 0.1rem 0.1rem var(--shadow-color) inset,
+    -0.1rem -0.1rem 0.1rem var(--card-shadow-color) inset;
+  --card-background: #f7f7f7;
+  --card-background-green: #cafed2;
+  --card-background-blue: #dfedff;
+  --card-background-purple: #c8c9ff;
+  --card-background-orange: #fbdfaa;
+  --card-background-red: #ffeaea;
+  --border-color-red: #edb9b9;
+  --card-background-red-dark: #ff000012;
+  --button-color: #fff;
+  --green: rgb(0, 144, 24);
+  --purple: rgb(100, 0, 194);
+  --blue: rgb(0, 105, 224);
+  --red: rgb(182, 9, 9);
+  --orange: rgb(144, 70, 0);
+  --light-green: rgba(0, 175, 29, 0.123);
+  --light-purple: rgba(100, 0, 194, 0.164);
+  --light-blue: rgba(0, 104, 224, 0.219);
+  --light-red: rgba(182, 9, 9, 0.246);
+  --light-orange: rgba(144, 70, 0, 0.226);
+  --sub-title-color: #888;
+  --description-color: #999;
+  --secondary-link-background: #eee;
+  --iphone-frame-back: linear-gradient(145deg, #f0f0f0, #cacaca);
+  --iphone-frame-shadows: 20px 20px 50px #bebebe, -20px -20px 50px #ffffff;
+  --iphone-notch-color: #eaeaea;
+  --btn-primary-shadow: 0 5px 20px 10px #fe97003b;
+}
+
+* {
+  box-sizing: border-box;
+}
+li {
+  line-height: 1.8;
+}
+ul {
+  margin-top: 0;
+}
+h1 {
+  margin: 0.5rem 0;
+}
+h2 {
+  margin: 0.5rem 0;
+}
+h4 {
+  margin: 1rem 0;
+}
+h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  margin: 0;
+}
+@media only screen and (max-width: 766px) {
+  p {
+    /* font-weight: 200; */
+  }
+  body {
+    padding: 1rem;
+  }
+  ul {
+    padding-left: 1rem;
+    line-height: 1.5;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+}

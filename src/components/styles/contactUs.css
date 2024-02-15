@@ -1,0 +1,55 @@
+.invalid-feedback {
+  color: var(--red);
+  font-size: 0.9em;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  color: var(--main-font-color);
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  height: 3.5rem;
+  background: var(--main-background-color);
+  color: var(--main-font-color);
+  font-weight: bold;
+  margin: 0.5rem 0;
+  border-radius: var(--radius);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.left-contact-card {
+  background: var(--card-background);
+  padding: 40px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.right-contact-card {
+  background: var(--card-color);
+  padding: 40px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .left-contact-card {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .right-contact-card {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}

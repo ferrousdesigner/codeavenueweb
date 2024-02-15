@@ -1,0 +1,16 @@
+.nav-items {
+  text-align: "center";
+  color: var(--header-color);
+  font-size: 15;
+  font-weight: 700;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.nav * button {
+  height: 3rem !important;
+}
+
+.invert {
+  filter: invert(100%);
+}

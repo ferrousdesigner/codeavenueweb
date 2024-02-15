@@ -1,0 +1,19 @@
+.checkbox-with-circle input[type="checkbox"] {
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.checkbox-with-circle input[type="checkbox"]::after {
+  background-color: black;
+}
+
+input[type="checkbox"] {
+  accent-color: desired-color;
+  scale: 2;
+}
+input[type="radio"] {
+  scale: 2;
+}
+label {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
