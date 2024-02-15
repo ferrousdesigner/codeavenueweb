@@ -31,8 +31,8 @@ const Nav = () => {
     body.classList.remove("theme-light");
     body.classList.add("theme-dark");
     localStorage.setItem("theme", "dark");
-    document.getElementById("nav-logo").classList.add("invert");
-    document.getElementById("footer-logo").classList.add("invert");
+    document.getElementById("nav-logo")?.classList.add("invert");
+    document.getElementById("footer-logo")?.classList.add("invert");
   };
 
   const applyLightTheme = () => {
@@ -41,8 +41,8 @@ const Nav = () => {
     body.classList.remove("theme-dark");
     body.classList.add("theme-light");
     localStorage.setItem("theme", "light");
-    document.getElementById("nav-logo").classList.remove("invert");
-    document.getElementById("footer-logo").classList.remove("invert");
+    document.getElementById("nav-logo")?.classList.remove("invert");
+    document.getElementById("footer-logo")?.classList.remove("invert");
   };
 
   const toggleThemeHandler = () => {
